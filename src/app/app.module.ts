@@ -12,6 +12,10 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { CareerpresentComponent } from './pages/careerpresent/careerpresent.component';
 import { CareernextComponent } from './pages/careernext/careernext.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { HrblogComponent } from './pages/hrblog/hrblog.component';
+import { CeochatComponent } from './pages/ceochat/ceochat.component';
+import { AskhrComponent } from './pages/askhr/askhr.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { CareernextComponent } from './pages/careernext/careernext.component';
     ProfileComponent,
     DashboardComponent,
     CareerpresentComponent,
-    CareernextComponent
+    CareernextComponent,
+    BlogComponent,
+    HrblogComponent,
+    CeochatComponent,
+    AskhrComponent
   ],
   imports: [
     BrowserModule,
