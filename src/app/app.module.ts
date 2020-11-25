@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { SidebarComponent } from './pages/sidebar/sidebar.component';
-import { BodyComponent } from './pages/body/body.component';
 import { LogoutComponent } from './pages/logout/logout.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -23,7 +22,6 @@ import { AskhrComponent } from './pages/askhr/askhr.component';
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
-    BodyComponent,
     LogoutComponent,
     ProfileComponent,
     DashboardComponent,
@@ -32,7 +30,8 @@ import { AskhrComponent } from './pages/askhr/askhr.component';
     BlogComponent,
     HrblogComponent,
     CeochatComponent,
-    AskhrComponent
+    AskhrComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
