@@ -10,6 +10,8 @@ import { BodyComponent } from './pages/body/body.component';
 import { LogoutComponent } from './pages/logout/logout.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { CareerpresentComponent } from './pages/careerpresent/careerpresent.component';
+import { CareernextComponent } from './pages/careernext/careernext.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     BodyComponent,
     LogoutComponent,
     ProfileComponent,
-    DashboardComponent
+    DashboardComponent,
+    CareerpresentComponent,
+    CareernextComponent
   ],
   imports: [
     BrowserModule,
