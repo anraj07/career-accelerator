@@ -9,6 +9,7 @@ import { SidebarComponent } from './pages/sidebar/sidebar.component';
 import { BodyComponent } from './pages/body/body.component';
 import { LogoutComponent } from './pages/logout/logout.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ProfileComponent } from './pages/profile/profile.component';
     SidebarComponent,
     BodyComponent,
     LogoutComponent,
-    ProfileComponent
+    ProfileComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
