@@ -1,0 +1,23 @@
+.certification-achiev {
+    .p-r-1 {
+        padding-right: 10px;
+    }
+    .img-certification {
+        width: 46px;
+        height: 46px;
+        margin-top: 8px;
+    }
+    .img-reward {
+        width: 29px;
+        height: auto;
+        margin-top: 8px;
+    }
+    .card-body {
+        &.p-sm {
+            padding: .65rem;
+            &.reward {
+                padding: .9rem;
+            }
+        }
+    }
+}
