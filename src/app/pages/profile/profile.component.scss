@@ -1,0 +1,24 @@
+table.projectHistory{
+    width:100%;
+    border-collapse: collapse;
+}
+
+table.projectHistory tr td{
+    font-size: 14px;
+    padding:3px;
+}
+
+table.projectHistory tr td:first-child{
+    padding-left:20px;
+}
+
+table.endLine tr td:last-child{
+    border-right:1px solid #aaa;
+}
+
+.m-b-0 {
+    margin-bottom: 0;
+}
+
+
+

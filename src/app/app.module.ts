@@ -15,6 +15,8 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { HrblogComponent } from './pages/hrblog/hrblog.component';
 import { CeochatComponent } from './pages/ceochat/ceochat.component';
 import { AskhrComponent } from './pages/askhr/askhr.component';
+import { CertificationsComponent } from './pages/certifications/certifications.component';
+import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { AskhrComponent } from './pages/askhr/askhr.component';
     HrblogComponent,
     CeochatComponent,
     AskhrComponent,
-    LogoutComponent
+    LogoutComponent,
+    CertificationsComponent,
+    NewsfeedComponent
   ],
   imports: [
     BrowserModule,
