@@ -7,6 +7,7 @@ import { CareerpresentComponent } from './pages/careerpresent/careerpresent.comp
 import { CeochatComponent } from './pages/ceochat/ceochat.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HrblogComponent } from './pages/hrblog/hrblog.component';
+import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: "blog", component: BlogComponent },
   { path: "hrblog", component: HrblogComponent },
   { path: "ceochat", component: CeochatComponent },
-  { path: "askhr", component: AskhrComponent }
+  { path: "askhr", component: AskhrComponent },
+  { path: "newsfeed", component: NewsfeedComponent }
 ];
 
 @NgModule({

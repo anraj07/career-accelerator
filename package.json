@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "aws-deploy": "aws s3 sync dist/career-accelerator/ s3://career-accecelator"
+    "aws-deploy": "aws s3 sync dist/career-accelerator/ s3://career-accelerator"
   },
   "private": true,
   "dependencies": {
