@@ -7,7 +7,10 @@ import { CareerpresentComponent } from './pages/careerpresent/careerpresent.comp
 import { CeochatComponent } from './pages/ceochat/ceochat.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HrblogComponent } from './pages/hrblog/hrblog.component';
+import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ProfileComponent } from './pages/profile/profile.component';
+import { CertificationsComponent } from './pages/certifications/certifications.component';
+
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { CareerMapComponent } from './pages/career-map/career-map.component';
 
@@ -21,9 +24,12 @@ const routes: Routes = [
   { path: "hrblog", component: HrblogComponent },
   { path: "ceochat", component: CeochatComponent },
   { path: "askhr", component: AskhrComponent },
-   { path: "ijp", component: ExploreijpComponent }
-   //{ path: "careermap", component: CareerMapComponent }
+ 
 
+  { path: "certifications", component: CertificationsComponent },
+  { path: "newsfeed", component: NewsfeedComponent },
+  { path: "ijp", component: ExploreijpComponent }
+  //{ path: "careermap", component: CareerMapComponent }
 ];
 
 @NgModule({

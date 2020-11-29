@@ -15,8 +15,10 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { HrblogComponent } from './pages/hrblog/hrblog.component';
 import { CeochatComponent } from './pages/ceochat/ceochat.component';
 import { AskhrComponent } from './pages/askhr/askhr.component';
-import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { CareerMapComponent } from './pages/career-map/career-map.component';
+import { CertificationsComponent } from './pages/certifications/certifications.component';
+import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
+import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +36,10 @@ import { CareerMapComponent } from './pages/career-map/career-map.component';
     CeochatComponent,
     AskhrComponent,
     LogoutComponent,
+    CareerMapComponent,
+    CertificationsComponent,
+    NewsfeedComponent,
     ExploreijpComponent,
-    CareerMapComponent
   ],
   imports: [
     BrowserModule,
