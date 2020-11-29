@@ -37,3 +37,49 @@
         padding-left: 18px;
     }
 }
+
+
+.comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+.modal-dialog {
+    position: absolute;
+    bottom: -14px;
+    right: 12px;
+}
+
+.modal-content {
+    margin: 4px;
+}
+
+.media-list {
+    padding: 11px 11px 0px 11px;
+    .media {
+        a {
+            padding-right: 7px;
+        }
+    }
+}
+
+.comment-entry {
+    padding: 0px 11px 0px 11px;
+}
+
+.float-bottom-right {
+    position: fixed;
+    right: 9px;
+    bottom: 18px;
+}
