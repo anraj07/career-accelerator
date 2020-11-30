@@ -28,6 +28,7 @@ const routes: Routes = [
   { path: "ijp", component: ExploreijpComponent },
   //{ path: "careermap", component: CareerMapComponent }
   { path: "randr", component: RewardsandrecognitionComponent },
+  { path: "careermap", component: CareerMapComponent }
 ];
 
 @NgModule({
