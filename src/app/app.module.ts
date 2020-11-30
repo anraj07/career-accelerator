@@ -20,6 +20,7 @@ import { CertificationsComponent } from './pages/certifications/certifications.c
 import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/rewardsandrecognition.component';
+import { CareerpathComponent } from './pages/careerpath/careerpath.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/re
     NewsfeedComponent,
     ExploreijpComponent,
     RewardsandrecognitionComponent,
+    CareerpathComponent,
   ],
   imports: [
     BrowserModule,

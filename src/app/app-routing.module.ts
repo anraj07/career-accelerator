@@ -13,6 +13,7 @@ import { CertificationsComponent } from './pages/certifications/certifications.c
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { CareerMapComponent } from './pages/career-map/career-map.component';
 import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/rewardsandrecognition.component'
+import { CareerpathComponent } from './pages/careerpath/careerpath.component';
 
 const routes: Routes = [
   { path: "", component: DashboardComponent },
@@ -26,6 +27,7 @@ const routes: Routes = [
   { path: "certifications", component: CertificationsComponent },
   { path: "newsfeed", component: NewsfeedComponent },
   { path: "ijp", component: ExploreijpComponent },
+  { path: "explore-career-path", component: CareerpathComponent },
   //{ path: "careermap", component: CareerMapComponent }
   { path: "randr", component: RewardsandrecognitionComponent },
 ];
