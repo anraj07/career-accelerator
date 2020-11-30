@@ -19,6 +19,7 @@ import { CareerMapComponent } from './pages/career-map/career-map.component';
 import { CertificationsComponent } from './pages/certifications/certifications.component';
 import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
+import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/rewardsandrecognition.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
     CertificationsComponent,
     NewsfeedComponent,
     ExploreijpComponent,
+    RewardsandrecognitionComponent,
   ],
   imports: [
     BrowserModule,

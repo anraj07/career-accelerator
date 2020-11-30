@@ -10,10 +10,9 @@ import { HrblogComponent } from './pages/hrblog/hrblog.component';
 import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { CertificationsComponent } from './pages/certifications/certifications.component';
-
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { CareerMapComponent } from './pages/career-map/career-map.component';
-
+import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/rewardsandrecognition.component'
 
 const routes: Routes = [
   { path: "", component: DashboardComponent },
@@ -26,8 +25,9 @@ const routes: Routes = [
   { path: "askhr", component: AskhrComponent },
   { path: "certifications", component: CertificationsComponent },
   { path: "newsfeed", component: NewsfeedComponent },
-  { path: "ijp", component: ExploreijpComponent }
+  { path: "ijp", component: ExploreijpComponent },
   //{ path: "careermap", component: CareerMapComponent }
+  { path: "randr", component: RewardsandrecognitionComponent },
 ];
 
 @NgModule({
