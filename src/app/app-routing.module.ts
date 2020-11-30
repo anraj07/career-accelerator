@@ -28,8 +28,8 @@ const routes: Routes = [
 
   { path: "certifications", component: CertificationsComponent },
   { path: "newsfeed", component: NewsfeedComponent },
-  { path: "ijp", component: ExploreijpComponent }
-  //{ path: "careermap", component: CareerMapComponent }
+  { path: "ijp", component: ExploreijpComponent },
+  { path: "careermap", component: CareerMapComponent }
 ];
 
 @NgModule({
