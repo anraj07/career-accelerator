@@ -30,6 +30,7 @@ const routes: Routes = [
   { path: "explore-career-path", component: CareerpathComponent },
   //{ path: "careermap", component: CareerMapComponent }
   { path: "randr", component: RewardsandrecognitionComponent },
+  { path: "careermap", component: CareerMapComponent }
 ];
 
 @NgModule({
