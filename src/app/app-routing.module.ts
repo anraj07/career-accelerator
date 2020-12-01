@@ -28,7 +28,6 @@ const routes: Routes = [
   { path: "newsfeed", component: NewsfeedComponent },
   { path: "ijp", component: ExploreijpComponent },
   { path: "explore-career-path", component: CareerpathComponent },
-  //{ path: "careermap", component: CareerMapComponent }
   { path: "randr", component: RewardsandrecognitionComponent },
   { path: "careermap", component: CareerMapComponent }
 ];
