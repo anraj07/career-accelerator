@@ -21,6 +21,7 @@ import { NewsfeedComponent } from './pages/newsfeed/newsfeed.component';
 import { ExploreijpComponent } from './pages/exploreijp/exploreijp.component';
 import { RewardsandrecognitionComponent } from './pages/rewardsandrecognition/rewardsandrecognition.component';
 import { CareerpathComponent } from './pages/careerpath/careerpath.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { CareerpathComponent } from './pages/careerpath/careerpath.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
